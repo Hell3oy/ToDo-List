@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: 'Lucida Handwriting';
+}
+.heading-css{
+    font-size: 8rem;
+    text-align: center;
+    margin: 2rem ;
+    color: white;
+    text-shadow: 0rem 0rem 0.3rem black;        
+}
+.main-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-css #task_input{
+    margin: 1rem 0rem 2rem 1rem;
+    font-size: 3rem;
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    border-radius: 2.5rem 0rem 0rem 2.5rem;
+    box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+}
+.main-css #task_button{
+    margin: 1rem 1rem 2rem 0rem;
+    font-size: 3rem;
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+    box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+}
+#output{
+    margin: 0rem 20rem 0rem 20rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+    max-height: 54rem;
+    overflow: auto;
+}
+
+#output .todoTitle{
+    margin-top: 0rem;
+    font-size: 2.9rem;
+    padding: 1rem 1rem 0.1rem 1rem;
+    text-align: center;
+}
+.btn1-css{
+    justify-content: center;
+    align-items: center;        
+    font-size: 2rem;
+    font-family: 'Lucida Handwriting';
+    border-radius: 2.5rem 0rem 0rem 2.5rem;
+    box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+}
+.btn2-css{
+    justify-content: center;
+    align-items: center;        
+    font-size: 2rem;
+    font-family: 'Lucida Handwriting';  
+    border-radius: 0rem 2.5rem 2.5rem 0rem;      
+    box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    /* start of large tablet styles */
+    .heading-css{
+        font-size: 8rem;
+        text-align: center;
+        margin: 2rem ;
+        color: white;
+        text-shadow: 0rem 0rem 0.3rem black;        
+    }
+    .main-css{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-css #task_input{
+        margin: 1rem 0rem 2rem 1rem;
+        font-size: 3rem;
+        font-family: 'Lucida Handwriting';
+        text-align: center;
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    .main-css #task_button{
+        margin: 1rem 1rem 2rem 0rem;
+        font-size: 3rem;
+        font-family: 'Lucida Handwriting';
+        text-align: center;
+        border-radius: 0rem 2.5rem 2.5rem 0rem;
+        box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    #output{
+        margin: 0rem 20rem 0rem 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+        box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+        max-height: 54rem;
+        overflow: auto;
+        margin-bottom: 1rem;
+    }
+    #output .todoTitle{
+        margin-top: 0rem;
+        font-size: 2.9rem;
+        padding: 2rem 1rem 0.9rem 1rem;
+        text-align: center;
+    }
+    .btn1-css{
+        justify-content: center;
+        align-items: center;        
+        font-size: 2.7rem;
+        font-family: 'Lucida Handwriting';
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    .btn2-css{
+        justify-content: center;
+        align-items: center;        
+        font-size: 2.7rem;
+        font-family: 'Lucida Handwriting';  
+        border-radius: 0rem 2.5rem 2.5rem 0rem;      
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    }
+    
+@media screen and (max-width: 768px) {
+    /* start of medium tablet styles */
+    .heading-css{
+        font-size: 8rem;
+        text-align: center;
+        margin: 2rem ;
+        color: white;
+        text-shadow: 0rem 0rem 0.3rem black;        
+    }
+    .main-css{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-css #task_input{
+        margin: 1rem 0rem 2rem 1rem;
+        font-size: 3rem;
+        font-family: 'Lucida Handwriting';
+        text-align: center;
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    .main-css #task_button{
+        margin: 1rem 1rem 2rem 0rem;
+        font-size: 3rem;
+        font-family: 'Lucida Handwriting';
+        text-align: center;
+        border-radius: 0rem 2.5rem 2.5rem 0rem;
+        box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    #output{
+        margin: 0rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+        box-shadow: 0rem 0rem 0.9rem rgba(0, 0, 0, 0.5);
+        max-height: 54rem;
+        overflow: auto;
+        margin-bottom: 1rem;
+    }
+    #output .todoTitle{
+        margin-top: 0rem;
+        font-size: 2.9rem;
+        padding: 2rem 1rem 0.9rem 1rem;
+        text-align: center;
+    }
+    .btn1-css{
+        justify-content: center;
+        align-items: center;        
+        font-size: 2.7rem;
+        font-family: 'Lucida Handwriting';
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    .btn2-css{
+        justify-content: center;
+        align-items: center;        
+        font-size: 2.7rem;
+        font-family: 'Lucida Handwriting';  
+        border-radius: 0rem 2.5rem 2.5rem 0rem;      
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    }
+    
+@media screen and (max-width: 480px) {
+    /* start of phone styles */
+    .heading-css{
+        font-size: 3rem;
+        text-align: center;
+        margin: 2rem ;
+        color: white;
+        text-shadow: 0rem 0rem 0.3rem black;        
+    }
+    .main-css{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-css #task_input{
+        margin: 0.9rem 0rem 0.9rem 0.9rem;
+        font-size: 1.5rem;
+        font-family: 'Lucida Handwriting';
+        text-align: center;
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    .main-css #task_button{
+        margin: 0.9rem 0.9rem 0.9rem 0rem;
+        font-size: 1.5rem;
+        font-family: 'Lucida Handwriting';
+        text-align: center;
+        border-radius: 0rem 2.5rem 2.5rem 0rem;
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    #output{
+        margin: 0rem 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        max-height: 40rem;
+        overflow: auto;
+        margin-bottom: 0.9rem;
+    }
+    #output .todoTitle{
+        margin-top: 0rem;
+        font-size: 1.5rem;
+        padding: 1.2rem 1rem 0.2rem 1rem;
+        text-align: center;
+    }
+    .btn1-css{
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-family: 'Lucida Handwriting';
+        border-radius: 2.5rem 0rem 0rem 2.5rem;
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+    .btn2-css{
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-family: 'Lucida Handwriting';  
+        border-radius: 0rem 2.5rem 2.5rem 0rem;      
+        box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.5);
+        outline: none;
+        border: none;
+    }
+
+    }
